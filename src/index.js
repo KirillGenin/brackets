@@ -32,5 +32,5 @@ module.exports = function check(str, bracketsConfig) {
       else stack.push(str[i])
     }
   }
-  return stack.length === 0 ? true : false
+  return stack.length === 0
 }
